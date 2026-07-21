@@ -18,7 +18,7 @@ export default function Header() {
       <div className="container flex items-center justify-between h-16">
         <div className="flex items-center gap-2">
           <img
-            src="/images/logo.png"
+            src="images/logo.png"
             alt="logo Process"
             className="w-12 h-10 rounded-lg hover:scale-105 transition-transform duration-500"
           />

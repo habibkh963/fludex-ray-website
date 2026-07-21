@@ -196,7 +196,7 @@ export default function Home() {
         <div className="container">
           <div className="glass-card p-6 md:p-8 overflow-hidden">
             <img
-              src="/images/Study Concept.png"
+              src="images/Study Concept.png"
               alt="DEX Analysis Process"
               className="w-full rounded-lg hover:scale-105 transition-transform duration-500"
             />
@@ -225,7 +225,7 @@ export default function Home() {
 
         <div className="glass-card p-8">
           <img
-            src="/images/security_varients.png"
+            src="images/security_varients.png"
             alt="Security Variants Comparison"
             className="w-full rounded-lg"
           />
@@ -409,7 +409,7 @@ export default function Home() {
           <div className="relative group overflow-hidden rounded-xl border border-accent/20 bg-background/50 aspect-video flex flex-col items-center justify-center p-6 text-center">
             {/* INSTRUCTION: Replace the src below with your actual Dashboard Home/Hero screenshot */}
             <img
-              src="/images/home.png"
+              src="images/home.png"
               alt="FludeX-Ray Main Dashboard Interface"
               className="absolute inset-0 w-full h-full object-cover opacity-100 group-hover:opacity-60 transition-opacity duration-300 "
               onError={(e) => {
@@ -431,7 +431,7 @@ export default function Home() {
             <div className="relative group overflow-hidden rounded-xl border border-accent/20 bg-background/50 aspect-video flex flex-col items-center justify-center p-6 text-center">
               {/* INSTRUCTION: Replace the src below with your Static Analysis / Report Generation screenshot */}
               <img
-                src="/images/static_analysis.png"
+                src="images/static_analysis.png"
                 alt="Automated Static Extraction Pipeline"
                 className="absolute inset-0 w-full h-full object-cover opacity-100 group-hover:opacity-50 transition-opacity duration-300 "
                 onError={(e) => {
@@ -479,7 +479,7 @@ export default function Home() {
             <div className="relative group overflow-hidden rounded-xl border border-accent/20 bg-background/50 aspect-video flex flex-col items-center justify-center p-6 text-center order-1 md:order-2">
               {/* INSTRUCTION: Replace the src below with your Dynamic / Frida Hook controls screenshot */}
               <img
-                src="/images/dynamic.png"
+                src="images/dynamic.png"
                 alt="Dynamic Hooking Controller Dashboard"
                 className="absolute inset-0 w-full h-full object-cover opacity-100 group-hover:opacity-50 transition-opacity duration-300 "
                 onError={(e) => {
@@ -532,7 +532,7 @@ export default function Home() {
             <div className="md:col-span-2 relative group overflow-hidden rounded-xl border border-accent/20 bg-background/50 aspect-video flex flex-col items-center justify-center p-6 text-center">
               {/* INSTRUCTION: Replace src with your dynamic UML Diagram asset */}
               <img
-                src="/images/uml_view.png"
+                src="images/uml_view.png"
                 alt="FludeX-Ray UML Class and Component Diagram"
                 className="absolute inset-0 w-full h-full object-contain opacity-100 group-hover:opacity-50 transition-opacity duration-300 "
                 onError={(e) => { e.currentTarget.style.display = 'none'; }}
@@ -550,7 +550,7 @@ export default function Home() {
             <div className="md:col-span-2 relative group overflow-hidden rounded-xl border border-accent/20 bg-background/50 aspect-video flex flex-col items-center justify-center p-6 text-center order-2 md:order-1">
               {/* INSTRUCTION: Replace src with the Manifest Analyzer panel screenshot */}
               <img
-                src="/images/manifast.png"
+                src="images/manifast.png"
                 alt="Automated Manifest Auditing Panel View"
                 className="absolute inset-0 w-full h-full object-cover opacity-100 group-hover:opacity-50 transition-opacity duration-300 "
                 onError={(e) => { e.currentTarget.style.display = 'none'; }}
@@ -606,7 +606,7 @@ export default function Home() {
             <div className="md:col-span-2 relative group overflow-hidden rounded-xl border border-accent/20 bg-background/50 aspect-[6/3] flex flex-col items-center justify-center p-6 text-center">
               {/* INSTRUCTION: Replace src with a mockup or sample screenshot of your generated PDF template */}
               <img
-                src="/images/pdf_report.png"
+                src="images/pdf_report.png"
                 alt="FludeX-Ray Exported Executive PDF Report Preview"
                 className="absolute inset-0 w-full h-full object-cover opacity-100 group-hover:opacity-50 transition-opacity duration-300 "
                 onError={(e) => { e.currentTarget.style.display = 'none'; }}
@@ -624,7 +624,7 @@ export default function Home() {
             <div className="md:col-span-2 relative group overflow-hidden rounded-xl border border-accent/20 bg-background/50 aspect-video flex flex-col items-center justify-center p-6 text-center order-2 md:order-1">
               {/* INSTRUCTION: Replace src with the Manifest Analyzer panel screenshot */}
               <img
-                src="/images/settings.png"
+                src="images/settings.png"
                 alt="Automated Manifest Auditing Panel View"
                 className="absolute inset-0 w-full h-full object-cover opacity-100 group-hover:opacity-50 transition-opacity duration-300 "
                 onError={(e) => { e.currentTarget.style.display = 'none'; }}
@@ -682,13 +682,13 @@ export default function Home() {
               <h4 className="font-bold text-foreground mb-4">Resources</h4>
               <div className="flex gap-4">
                 <a
-                  href="#"
+                  href="https://github.com/habibkh963/"
                   className="text-accent hover:text-primary transition-colors"
                 >
                   <Github className="w-5 h-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/habibkh963/fludex-ray/releases/"
                   className="text-accent hover:text-primary transition-colors"
                 >
                   <ExternalLink className="w-5 h-5" />
